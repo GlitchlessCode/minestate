@@ -269,12 +269,12 @@ function minestate:interpreter/stop {target:"<InterpreterName>"}
 
 **NOTE: All active interpreters are wiped on reload.** Make sure to reinitialize them after any reload.
 
-## Private Folders & NBT Data
+# Private Folders & NBT Data
 
 You are highly advised not to access or run any function under a folder called `private`. Any bugs or problems arising from improper use of this datapack will not be resolved, unless it also affects standard use cases.
 
 You are also advised not to access or modify any internal NBT data under the namespace `minestate` or `minestate._temp_`. However, if required, the builder can be bypassed by directly injecting a state machine definition into the definition table at `minestate:internal definitions`. Once again, problems arising from improper use of this datapack will not be resolved, unless it also affects standard use cases.
 
-## Contributing
+# Contributing
 
 Feel free to contribute to this datapack if you so wish. However, I provide no guarantees that I will address issues or pull requests.
