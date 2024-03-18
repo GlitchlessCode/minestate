@@ -1,0 +1,14 @@
+{
+  "pack": {
+    "pack_format": 20,
+    "supported_formats": {
+      "min_inclusive": 20,
+      "max_inclusive": 26
+    },
+    "description": [
+      { "text": "MineState ", "color": "gold", "bold": true },
+      { "text": "by ", "color": "gray", "bold": false },
+      { "text": "GlitchlessCode", "color": "gray", "bold": true }
+    ]
+  }
+}
