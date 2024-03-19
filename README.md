@@ -8,7 +8,6 @@ MineState is a state machine builder and interpreter datapack library for Java M
 
 All state machines must first be defined, before they can be used. It is strongly advised to use the built in state machine builder (`minestate:builder/`), especially when building for the first time. However, since you only need to build a state machine once, directly affecting the nbt data is advisable for performance sake.
 
-<hr>
 <details>
   <summary><strong>Builders</strong></summary>
 
