@@ -8,8 +8,6 @@ MineState is a state machine builder and interpreter datapack library for Java M
 
 All state machines must first be defined, before they can be used. It is strongly advised to use the built in state machine builder (`minestate:builder/`), especially when building for the first time. However, since you only need to build a state machine once, directly affecting the nbt data is advisable for performance sake.
 
-### Running the builder
-
 <hr>
 <details>
   <summary><strong>Builders</strong></summary>
@@ -217,6 +215,8 @@ function minestate:builder/actions/new {name:"<ActionsName>", target:"<Function>
 **NOTE: All state machines definitions are wiped on reload.** Make sure to reinitialize them after any reload.
 
 ## Interpreting a State Machine
+
+An interpreter is the active part of a state machine. It represents a state machine, which, when an event is triggered, follows the appropriate transition paths between states.
 
 <details>
   <summary><strong>Interpreters</strong></summary>
